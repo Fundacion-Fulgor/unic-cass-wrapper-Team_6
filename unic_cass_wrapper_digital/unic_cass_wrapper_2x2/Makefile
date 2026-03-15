@@ -28,6 +28,11 @@ view_results:
 	# View the results in KLayout
 	nix-shell --pure $(LIBRELANE_DIR) --run "PDK_ROOT=$(PDK_ROOT) PDK=$(PDK) librelane --last-run --manual-pdk $(CONFIG_FILE) --flow OpenInOpenROAD"
 
+.PHONY: view_klayout
+view_klayout:
+	# View the generated GDS in KLayout
+	nix-shell --pure $(LIBRELANE_DIR) --run "PDK_ROOT=$(PDK_ROOT) PDK=$(PDK) librelane --last-run --manual-pdk $(CONFIG_FILE) --flow OpenInKlayout"
+
 .PHONY: drc
 drc: 
 	# Run DRC on the generated GDS

@@ -4,16 +4,10 @@
         "flow": "Chip",
         "substituting_steps": {
             "Magic.DRC": null,
-            "KLayout.Antenna": null,
-            "Checker.KLayoutAntenna": null,
-            "KLayout.Filler": null,
-            "KLayout.Density": null,
-            "Checker.KLayoutDensity": null,
-            "KLayout.SealRing": null,
             "Checker.IllegalOverlap": null
         }
     },
-
+ 
     "DESIGN_NAME": "user_project_wrapper_2x2",
     "CLOCK_PERIOD": 10,
     "CLOCK_PORT": "io_clock_PAD",
@@ -34,11 +28,8 @@
     "PDN_CORE_RING_VWIDTH": 15,
     "PDN_CORE_RING_HWIDTH": 15,
 
-    "PDN_VPITCH": 50,  
-    "PDN_HPITCH": 50,
-
-    "PDN_VWIDTH": 3.5,
-    "PDN_HWIDTH": 3.5,
+    "PDN_CORE_RING_VSPACING": 3,
+    "PDN_CORE_RING_HSPACING": 3,
 
     "USE_SLANG": true,
 
