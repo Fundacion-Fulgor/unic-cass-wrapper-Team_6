@@ -1,0 +1,15 @@
+    {
+    "meta": {
+        "version": 3,
+        "flow": "Classic",
+        "substituting_steps":{
+            "KLayout.DRC": null,
+            "Magic.DRC": null
+        }
+    },
+    "DESIGN_NAME": "CNN4IC",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PERIOD": 10,
+    "CLOCK_PORT": "clk_i"
+}
+
