@@ -1,0 +1,23 @@
+{
+    "meta": {
+        "version": 3,
+        "flow": "Classic",
+        "substituting_steps":{
+            "Magic.DRC": null
+        }
+    },
+    "DESIGN_NAME": "fse_lms_wrapper",
+    "VERILOG_FILES": [
+        "dir::src/fse_lms_wrapper.v",
+        "dir::src/top.v",
+        "dir::src/FIR_t.v",
+        "dir::src/LMS.v",
+        "dir::src/serial_to_parallel.v",
+        "dir::src/parallel_to_serial.v",
+        "dir::src/debug_unit.v",
+        "dir::src/spi_slave_mode0.v",
+        "dir::src/cdc_snapshot.v"
+    ],
+    "CLOCK_PERIOD": 20,
+    "CLOCK_PORT": "clk_i"
+}
